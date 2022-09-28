@@ -1,19 +1,3 @@
 # temp_chrissie
 
-.vscode/launch.json file should look like this
-```
-{
-"configurations": [
-{
-    "name": "Python: Django",
-    "type": "python",
-    "request": "launch",
-    "program": "${workspaceFolder}/manage.py",
-    "args": [
-        "runserver",
-        "{{do you put something in here so it watches files and reloads?}}"
-    ],
-    "django": true
-}
-]
-```
+i created a ./venv folder in the top level directory. created a project using the `django-admin createproject soapbox` command to try to make it similar to yours. the launch.json is working. hope that helps!
